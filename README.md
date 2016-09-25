@@ -12,5 +12,10 @@ $ python main.py
 $ BUTIMILI_HOST=0.0.0.0 BUTIMILI_PORT=4545 python main.py
 ```
 
+## thanks for
+
+* @mohemohe
+* [detail](https://ghippos.net/blog/posts/2015-12-27-sun)
+
 ## license
 MIT
