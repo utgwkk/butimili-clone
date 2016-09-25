@@ -10,7 +10,7 @@ TEMPLATE_TXT = '{} うおおおおおおあああああああああああああ�
 TEMPLATE_URL = 'https://twitter.com/intent/tweet?text={}'
 
 def list_filter(config):
-    delimiter = r'[/\+]' or config
+    delimiter = config or r'[/\+]'
     regexp = r'@?[0-9a-zA-Z_]+({}@?[0-9a-zA-Z_]+)*/*'.format(delimiter)
 
     def to_py(match):
