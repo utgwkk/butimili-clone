@@ -23,6 +23,10 @@ def list_filter(config):
 
 app.router.add_filter('list', list_filter)
 
+@app.route('/')
+def index():
+    return redirect('https://github.com/utgwkk/butimili-clone')
+
 @app.route('/<targets:list>')
 def butimili(targets):
     replies = '@' + ' @'.join(targets)
