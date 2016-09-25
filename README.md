@@ -1,6 +1,6 @@
 # butimili-clone
 
-## usage
+## how to run
 
 ```sh
 $ pip install -r requirements.txt
@@ -11,6 +11,12 @@ $ python main.py
 # or specify port with BUTIMILI_PORT and host with BUTIMILI_HOST
 $ BUTIMILI_HOST=0.0.0.0 BUTIMILI_PORT=4545 python main.py
 ```
+
+## how to use
+
+* specify screen_name
+  * e.g. http://butimili.utgw.net/karubabu/kenkov
+* multi-user is available
 
 ## thanks for
 
