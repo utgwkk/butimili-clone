@@ -26,7 +26,7 @@ app.router.add_filter('list', list_filter)
 @app.route('/<targets:list>')
 def butimili(targets):
     replies = '@' + ' @'.join(targets)
-    return redirect(TEMPLATE_URL.format(quote(TEMPLATE_TXT.format(replies))))
+    return redirect(TEMPLATE_URL.format(quote(TEMPLATE_TXT.format(replies)[:140])))
 
 
 if __name__ == '__main__':
